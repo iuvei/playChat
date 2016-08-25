@@ -1,0 +1,69 @@
+<extend name="Base/common"/>
+
+<block name="head">
+    <!-- 这里可以放一些需要在公共head中追加的代码,比如css代码,引入其他页面不需要的css文件,或者js文件 -->
+</block>
+
+<block name="header">
+    <!-- 这里可以放一些需要在公共header中追加的代码 -->
+</block>
+<!--公开直播-->
+<block name="body">
+    <!--这里放置正文代码-&#45;&#45;index-->
+    <div class="container-fluid">
+        <div class="bt bt2">
+            <button class="btn btn-default">选择直播类型</button>
+            <p>选择后不能更改</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="public_play.html">
+                <h4>公开直播</h4>
+                <div>
+                    <img  src="__IMG__/gongkaizhibo1.png"></div>
+                    </a>
+                <p>
+                    <img src="__IMG__/sanjiao.png">
+                </p>
+            </div>
+            <div class="col-xs-4">
+                <a href="pay_play.html">
+                <h4>收费直播</h4>
+                <div><img src="__IMG__/shouferizhibo.png"></div>
+                    </a>
+            </div>
+            <div class="col-xs-4">
+                <a href="into_meeting.html">
+                <h4>内部会议</h4>
+                <div><img src="__IMG__/neibu.png"></div>
+                    </a>
+            </div>
+        </div>
+        <div class="all">
+            <p>所有人可收听</p>
+        </div>
+        <div class="tab">
+            <a href="#">
+                <div class="pull-left">本期话题</div>
+                <div class="pull-right">你说我们要成功</div>
+            </a>
+        </div>
+        <div class="tab">
+            <a href="#">
+                <div class="pull-left">开始时间</div>
+                <div class="pull-right">你说我们要成功</div>
+            </a>
+        </div>
+        <div class="tab" id="tab">
+            <a href="#">
+                <div class="pull-left">话题介绍</div>
+                <div class="pull-right">你说我们要成功</div>
+            </a>
+        </div>
+        <div class="bt">
+            <button class="btn btn-default">下一步</button>
+        </div>
+    </div>
+
+
+</block>

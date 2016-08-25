@@ -1,0 +1,109 @@
+[04-Aug-2016 02:11:49 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 02:11:50 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 04:13:18 Europe/Paris] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 04:13:18 Europe/Paris] PHP Stack trace:
+[04-Aug-2016 04:13:18 Europe/Paris] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 04:13:18 Europe/Paris] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 04:13:20 Europe/Paris] PHP Warning:  mysql_connect():  in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 04:13:20 Europe/Paris] PHP Stack trace:
+[04-Aug-2016 04:13:20 Europe/Paris] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 04:13:20 Europe/Paris] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 04:13:20 Europe/Paris] PHP Warning:  mysql_connect():  in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 04:13:20 Europe/Paris] PHP Stack trace:
+[04-Aug-2016 04:13:20 Europe/Paris] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 04:13:20 Europe/Paris] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 02:20:01 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 02:20:03 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 11:23:09 PRC] PHP Fatal error:  Call to undefined function is_login() in F:\wamp\www\think\Application\Runtime\Cache\Home\1225c39d52ec104198b6cc3e4abdad5b.php on line 37
+[04-Aug-2016 11:23:09 PRC] PHP Stack trace:
+[04-Aug-2016 11:23:09 PRC] PHP   1. {main}() F:\wamp\www\think\index.php:0
+[04-Aug-2016 11:23:09 PRC] PHP   2. require() F:\wamp\www\think\index.php:24
+[04-Aug-2016 11:23:09 PRC] PHP   3. Think\Think::start() F:\wamp\www\think\ThinkPHP\ThinkPHP.php:97
+[04-Aug-2016 11:23:09 PRC] PHP   4. Think\App::run() F:\wamp\www\think\ThinkPHP\Library\Think\Think.class.php:120
+[04-Aug-2016 11:23:09 PRC] PHP   5. Think\App::exec() F:\wamp\www\think\ThinkPHP\Library\Think\App.class.php:204
+[04-Aug-2016 11:23:09 PRC] PHP   6. ReflectionMethod->invokeArgs() F:\wamp\www\think\ThinkPHP\Library\Think\App.class.php:114
+[04-Aug-2016 11:23:09 PRC] PHP   7. Think\Controller->__call() F:\wamp\www\think\ThinkPHP\Library\Think\App.class.php:114
+[04-Aug-2016 11:23:09 PRC] PHP   8. Think\Controller->display() F:\wamp\www\think\ThinkPHP\Library\Think\Controller.class.php:168
+[04-Aug-2016 11:23:09 PRC] PHP   9. Think\View->display() F:\wamp\www\think\ThinkPHP\Library\Think\Controller.class.php:56
+[04-Aug-2016 11:23:09 PRC] PHP  10. Think\View->fetch() F:\wamp\www\think\ThinkPHP\Library\Think\View.class.php:72
+[04-Aug-2016 11:23:09 PRC] PHP  11. Think\Hook::listen() F:\wamp\www\think\ThinkPHP\Library\Think\View.class.php:126
+[04-Aug-2016 11:23:09 PRC] PHP  12. Think\Hook::exec() F:\wamp\www\think\ThinkPHP\Library\Think\Hook.class.php:89
+[04-Aug-2016 11:23:09 PRC] PHP  13. Behavior\ParseTemplateBehavior->run() F:\wamp\www\think\ThinkPHP\Library\Think\Hook.class.php:119
+[04-Aug-2016 11:23:09 PRC] PHP  14. Think\Template->fetch() F:\wamp\www\think\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php:32
+[04-Aug-2016 11:23:09 PRC] PHP  15. Think\Storage::load() F:\wamp\www\think\ThinkPHP\Library\Think\Template.class.php:77
+[04-Aug-2016 11:23:09 PRC] PHP  16. Think\Storage::__callstatic() F:\wamp\www\think\ThinkPHP\Library\Think\Template.class.php:77
+[04-Aug-2016 11:23:09 PRC] PHP  17. call_user_func_array:{F:\wamp\www\think\ThinkPHP\Library\Think\Storage.class.php:37}() F:\wamp\www\think\ThinkPHP\Library\Think\Storage.class.php:37
+[04-Aug-2016 11:23:09 PRC] PHP  18. Think\Storage\Driver\File->load() F:\wamp\www\think\ThinkPHP\Library\Think\Storage.class.php:37
+[04-Aug-2016 11:23:09 PRC] PHP  19. include() F:\wamp\www\think\ThinkPHP\Library\Think\Storage\Driver\File.class.php:80
+[04-Aug-2016 13:49:33 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 13:49:33 Asia/Shanghai] PHP Stack trace:
+[04-Aug-2016 13:49:33 Asia/Shanghai] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 13:49:33 Asia/Shanghai] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 05:49:56 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:49:57 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 13:50:00 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 13:50:00 Asia/Shanghai] PHP Stack trace:
+[04-Aug-2016 13:50:00 Asia/Shanghai] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 13:50:00 Asia/Shanghai] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 05:50:14 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:15 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:16 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:16 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:47 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:47 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:47 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:48 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:48 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:50:48 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 13:50:52 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 13:50:52 Asia/Shanghai] PHP Stack trace:
+[04-Aug-2016 13:50:52 Asia/Shanghai] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 13:50:52 Asia/Shanghai] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP Stack trace:
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in F:\wamp\www\testmysql.php on line 2
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP Stack trace:
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP   1. {main}() F:\wamp\www\testmysql.php:0
+[04-Aug-2016 13:50:53 Asia/Shanghai] PHP   2. mysql_connect() F:\wamp\www\testmysql.php:2
+[04-Aug-2016 05:53:13 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:53:13 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:53:14 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:53:14 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:53:26 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[04-Aug-2016 05:53:27 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[10-Aug-2016 09:58:04 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[10-Aug-2016 09:58:05 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[12-Aug-2016 02:25:37 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[12-Aug-2016 02:25:39 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 00:56:04 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 00:56:06 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 00:56:12 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 00:56:13 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 05:17:57 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 05:17:58 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 05:18:06 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[15-Aug-2016 05:18:07 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[16-Aug-2016 01:36:23 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[16-Aug-2016 01:36:25 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[16-Aug-2016 01:36:31 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[16-Aug-2016 01:36:32 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[17-Aug-2016 01:34:35 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[17-Aug-2016 01:34:36 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[18-Aug-2016 01:25:49 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[18-Aug-2016 01:25:50 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[18-Aug-2016 01:25:58 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[18-Aug-2016 01:25:59 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[22-Aug-2016 01:08:00 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[22-Aug-2016 01:08:02 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[22-Aug-2016 01:08:06 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[22-Aug-2016 01:08:07 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[23-Aug-2016 01:09:18 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[23-Aug-2016 01:09:20 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[23-Aug-2016 01:09:30 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[23-Aug-2016 01:09:31 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[24-Aug-2016 01:13:22 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[24-Aug-2016 01:13:24 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[24-Aug-2016 01:13:31 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
+[24-Aug-2016 01:13:33 UTC] PHP Warning:  PHP Startup:  in Unknown on line 0
