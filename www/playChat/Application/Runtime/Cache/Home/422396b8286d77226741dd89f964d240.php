@@ -39,10 +39,14 @@
                     <img src="/playChat/Public/Home/images/shoucang.png">粉丝:<span>120</span>人
                 </div>
                 <div class="bn">
-                    <button class="btn btn-default pull-left">查看二维码</button>
-                    <button class="btn btn-default pull-right">设置直播间</button>
+                    <div class="pull-left">
+                        <button class="btn btn-default">查看二维码</button>
+                    </div>
+                    <div class="pull-right">
+                        <button class="btn btn-default ">设置直播间</button>
+                    </div>
                 </div>
-                <div class="tex">
+                <div class="tex" style="padding-top: 0">
                     <p>直播间介绍:<span>很好玩哦,大家来体验一把</span></p>
                 </div>
                 <div class="checkbox">
@@ -65,10 +69,14 @@
                     <img src="/playChat/Public/Home/images/shoucang.png">粉丝:<span>120</span>人
                 </div>
                 <div class="bn">
-                    <button class="btn btn-default pull-left">查看二维码</button>
-                    <button class="btn btn-default pull-right">设置直播间</button>
+                    <div class="pull-left">
+                        <button class="btn btn-default">查看二维码</button>
+                    </div>
+                    <div class="pull-right">
+                        <button class="btn btn-default ">设置直播间</button>
+                    </div>
                 </div>
-                <div class="tex">
+                <div class="tex" style="padding-top: 0">
                     <p>直播间介绍:<span>很好玩哦,大家来体验一把</span></p>
                 </div>
                 <div class="checkbox">

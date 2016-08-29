@@ -24,7 +24,7 @@
 	
 <!-- 这里放置需要在公共footer中追加的代码 -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
+        <div class="container" style="border-bottom: none;">
             <a href="../Product/topics.html"><div class="pull-left topic"><p>精选话题</p></div></a>
             <a href="../Product/function_Introduction.html"><div class="pull-right function"><p>功能介绍</p></div></a>
         </div>
@@ -42,12 +42,12 @@
     </div>
     <!--信息通知-->
     <div class="cast">
-        &nbsp;<img src="/playChat/Public/Home/images/xiaolaba.png"><span>更优质的直播体验,我们解决了关于IOS版本的部分Bug</span>
+        &nbsp;<img style="margin-left: 5px" src="/playChat/Public/Home/images/xiaolaba1.png"><span style="margin-left: 5px">更优质的直播体验,我们解决了关于IOS版本的部分Bug</span>
     </div>
     <!--按钮-->
     <div class="bn bn1">
-        <button class="btn btn-default pull-left">创建直播间(基础版)</button>
-        <button class="btn btn-default pull-right">创建直播间(专业版)</button>
+        <a href="../Product/approve.html"><button class="btn btn-default pull-left">创建直播间(基础版)</button></a>
+        <a href="../Product/approve.html"><button class="btn btn-default pull-right">创建直播间(专业版)</button></a>
     </div>
     <!--平台介绍-->
     <div class="func func1">
@@ -72,7 +72,7 @@
 	
 <!-- 这里放置需要在公共footer中追加的代码 -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
+        <div class="container" style="border-bottom: none;">
             <a href="../Product/topics.html"><div class="pull-left topic"><p>精选话题</p></div></a>
             <a href="../Product/function_Introduction.html"><div class="pull-right function"><p>功能介绍</p></div></a>
         </div>

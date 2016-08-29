@@ -28,9 +28,9 @@
 	
     <div class="container-fluid on">
         <input type="text" class="form-control" placeholder="穿鞋的猫">
-        <div class="num">免费剩余次数:<span>2</span>次</div>
+        <div class="num"  style="margin-top: 5px;">免费剩余次数:<span>2</span>次</div>
         <div class="bt">
-            <button class="btn btn-default">购买次数</button>
+            <button class="btn btn-default" >购买次数</button>
         </div>
     </div>
 

@@ -24,7 +24,7 @@
 	
     <!-- 这里放置需要在公共footer中追加的代码 -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
+        <div class="container" style="border-bottom: none;">
             <a href="topics.html"><div class="pull-left topic"><p>精选话题</p></div></a>
             <a href="function_Introduction.html"><div class="pull-right introduce"><p>功能介绍</p></div></a>
         </div>
@@ -59,7 +59,7 @@
 	
     <!-- 这里放置需要在公共footer中追加的代码 -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
+        <div class="container" style="border-bottom: none;">
             <a href="topics.html"><div class="pull-left topic"><p>精选话题</p></div></a>
             <a href="function_Introduction.html"><div class="pull-right introduce"><p>功能介绍</p></div></a>
         </div>

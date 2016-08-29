@@ -19,60 +19,101 @@
         <div class="row">
             <div class="col-xs-4">
                 <a href="public_play.html">
-                <h4>公开直播</h4>
-                <div><img src="__IMG__/gongkaizhibo.png"></div>
-                    </a>
+                    <h4>公开直播</h4>
+
+                    <div><img style="width: 80%;height: auto"  src="__IMG__/gongkaizhibo.png"></div>
+                </a>
             </div>
             <div class="col-xs-4">
                 <a href="pay_play.html">
-                <h4>收费直播</h4>
-                <div><img src="__IMG__/shouferizhibo.png"></div>
-                    </a>
+                    <h4>收费直播</h4>
+
+                    <div><img style="width: 80%;height: auto"  src="__IMG__/shouferizhibo.png"></div>
+                </a>
             </div>
             <div class="col-xs-4">
                 <a href="into_meeting.html">
-                <h4>内部会议</h4>
-                <div><img src="__IMG__/neibu1.png"></div>
-                    </a>
-                <p>
-                    <img src="__IMG__/sanjiao.png">
+                    <h4>内部会议</h4>
+
+                    <div><img style="width: 80%;height: auto"  src="__IMG__/neibu1.png"></div>
+                </a>
+
+                <p style="left: 42%">
+                    <img  src="__IMG__/sanjiao.png">
                 </p>
             </div>
         </div>
         <!--设置密码话题密码-->
         <div class="all">
             <p>设置密码</p>
+
             <form class="form-inline">
                 <div class="form-group">
 
-                        <input type="password" class="form-control" id="exampleInputAmount" placeholder="支持中文、英文不区分大小">
+                    <input type="password" class="form-control" id="exampleInputAmount" placeholder="支持中文、英文不区分大小">
 
                 </div>
             </form>
         </div>
         <!--话题设置-->
-        <div class="tab">
-            <a href="#">
-                <div class="pull-left">本期话题</div>
-                <div class="pull-right">你说我们要成功</div>
-            </a>
+        <div class="tab" id="top-one">
+            <div class="pull-left">本期话题</div>
+            <div class="pull-right">你说我们要成功</div>
         </div>
         <div class="tab">
-            <a href="#">
-                <div class="pull-left">开始时间</div>
-                <div class="pull-right">你说我们要成功</div>
-            </a>
+
+            <div class="pull-left">开始时间</div>
+            <div class="pull-right">你说我们要成功</div>
+
         </div>
         <div class="tab" id="tab">
-            <a href="#">
-                <div class="pull-left">话题介绍</div>
-                <div class="pull-right">你说我们要成功</div>
+
+            <div class="pull-left">话题介绍</div>
+            <div class="pull-right">你说我们要成功</div>
+
+        </div>
+        <div class="bt" style="margin-bottom: 16px;">
+            <a href="playing.html">
+                <button class="btn btn-default">下一步</button>
             </a>
         </div>
-        <div class="bt bt3">
-            <button class="btn btn-default">下一步</button>
+    </div>
+    <div class="ball">
+        <div class="ball-con">
+            <div class="title">话题名称</div>
+            <form role="form">
+                <div class="form-group for">
+                    <textarea class="form-control" rows="3" placeholder="请输入话题名称"></textarea>
+                </div>
+            </form>
+            <div class="bn bn1">
+                <button class="btn btn-default pull-left">取消</button>
+                <button class="btn btn-default pull-right">确定</button>
+            </div>
         </div>
     </div>
-
-
+    <div class="ball-one">
+        <div class="ball-con">
+            <div class="title">话题名称</div>
+            <form role="form">
+                <div class="form-group for">
+                    <textarea class="form-control" rows="3" placeholder="请输入话题介绍"></textarea>
+                </div>
+            </form>
+            <div class="bn bn1">
+                <button class="btn btn-default pull-left">取消</button>
+                <button class="btn btn-default pull-right">确定</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#top-one").click(function () {
+                $(".ball").show();
+            });
+            $("#tab").click(function () {
+                $(".ball-one").show();
+            })
+        })
+    </script>
 </block>

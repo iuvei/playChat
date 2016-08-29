@@ -49,9 +49,11 @@
         <!--历史直播话题-->
         <div class="media med me" style="border-top: none">
             <div class="media-left">
+                <a href="playing.html">
                 <img class="media-object" src="/playChat/Public/Home/images/jingxuna.png">
 
                 <div class="one">&nbsp;<span>已结束</span></div>
+                    </a>
                 <!--<div class="two"><span>200正在参加</span>&nbsp;</div>-->
             </div>
             <div class="media-body">
@@ -67,9 +69,11 @@
         <!--历史直播话题-->
         <div class="media med">
             <div class="media-left">
+                <a href="playing.html">
                 <img class="media-object" src="/playChat/Public/Home/images/jingxuna.png">
 
                 <div class="one">&nbsp;<span>直播中</span></div>
+                    </a>
                 <!--<div class="two"><span>200正在参加</span>&nbsp;</div>-->
             </div>
             <div class="media-body">

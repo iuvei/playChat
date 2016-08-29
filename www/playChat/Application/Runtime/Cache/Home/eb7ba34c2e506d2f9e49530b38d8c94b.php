@@ -27,25 +27,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-4 ico1">
-                    &nbsp;&nbsp;&nbsp;语音
+                    &nbsp;&nbsp;&nbsp;&nbsp;语音
                 </div>
                 <div class="col-xs-4 ico2">
-                    &nbsp;&nbsp;&nbsp;文字
+                    &nbsp;&nbsp;&nbsp;&nbsp;文字
                 </div>
                 <div class="col-xs-4 ico3" id="last">
-                    &nbsp;&nbsp;&nbsp;图片
+                    &nbsp;&nbsp;&nbsp;&nbsp;图片
                 </div>
             </div>
         </div>
         <!--语音短录-->
         <div class="yu_yin">
             <div class="luyin">
-                <div class="pull-left">
+                <div class="pull-left" style="border-right: 1px solid #bbb;">
                     <a href="#">短录&nbsp;&nbsp;
                     </a>
                 </div>
                 <div class="pull-right timer">
-                    <a href="#">|&nbsp;&nbsp;长录</a>
+                    <a href="#">&nbsp;&nbsp;长录</a>
                 </div>
             </div>
             <div class="tal">
@@ -60,8 +60,8 @@
                 <div class="pull-left">
                     <a href="#">短录&nbsp;&nbsp;</a>
                 </div>
-                <div class="pull-right">
-                    <a href="#">|&nbsp;&nbsp;长录</a>
+                <div class="pull-right" style="border-left: 1px solid #bbb;">
+                    <a href="#">&nbsp;&nbsp;长录</a>
                 </div>
             </div>
             <div class="tal">
@@ -73,27 +73,28 @@
         <!--文字-->
         <div class="wen_zi">
             <form class="form-inline">
-                <button type="submit" class="btn btn-default">返回</button>
+                <button type="submit" class="btn btn-default" style="float: left;padding: 6px 8px;">返回</button>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="来说点什么吧">
-
                 </div>
-                <div class="smil"><img src="/playChat/Public/Home/images/biaoqing.png"></div>
-                <button  type="submit" class="btn btn-default bt1">发送
-                </button>
+                <div class="smil" style="text-align: center;line-height: 34px"><img src="/playChat/Public/Home/images/biaoqing.png" style="height: 24px;"></div>
+                <button  type="submit" class="btn btn-default bt1" style="float: right">发送</button>
             </form>
         </div>
         <!--图片-->
         <div class="tu_pian">
             <div class="pull-left">
+                <a href="#" style="color: #292626">
                 <img src="/playChat/Public/Home/images/tupian22222222.png">
 
                 <P>图片</P>
+                    </a>
             </div>
             <div class="pull-left">
+                <a href="open_video.html" style="color: #292626">
                 <img src="/playChat/Public/Home/images/shipin.png">
-
                 <P>视频</P>
+                </a>
             </div>
         </div>
     </nav>
@@ -115,11 +116,10 @@
         </div>
 
         <div class="bt bt8" id="bt">
-            <a href="invite.html"><button class="btn btn-default">邀请嘉宾</button></a>
+            <a href="invite.html"><button class="btn btn-default" style="height: 40px;line-height: 40px;">邀请嘉宾</button></a>
         </div>
         <div class="play">
-            <!--autoplay="autoplay"-->
-            <video width="100%" height="240" controls="controls">
+            <video width="100%" height="240" controls="controls" autoplay="autoplay">
                 <source src="http://cmhsys.2k6k.com/1.mp4"
                         type="video/mp4">
                 Your browser does not support the video tag.
@@ -135,8 +135,8 @@
             </ul>
         </div>
         <!--刷新和加号-->
-        <div class="refresh">
-            <div class="ref"><img src="/playChat/Public/Home/images/shuaxin.png"></div>
+        <div class="refre">
+            <div class="ref" ><img onclick="myRefresh()" src="/playChat/Public/Home/images/shuaxin.png"></div>
             <div class="add"><img src="/playChat/Public/Home/images/caozuo-.png"></div>
         </div>
     </div>
@@ -189,6 +189,9 @@
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
+              function myRefresh(){
+                  window.location.reload();
+              }
             $("#sho").click(function () {
                 $("#bt").toggle();
             });
@@ -218,21 +221,21 @@
             $(".ico1").click(function () {
                 $(this).css({
                     'color': '#00b0f0',
-                    'background': 'url("/playChat/Public/Home/images/yuyin1.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/yuyin1.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 $(".ico2").css({
                     'color': '#888888',
-                    'background': 'url("/playChat/Public/Home/images/wenzi1.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/wenzi1.png") no-repeat 28% 50%',
+                    'background-size': '20%'
                 });
                 $(".ico3").css({
                     'color': '#888888',
-                    'background': 'url("/playChat/Public/Home/images/tupian.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/tupian.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 hideButton();
-                $(".yu_yin").show();
+                $(".yu_yin").toggle();
             });
             //点击长录
             $(".timer").click(function () {
@@ -249,42 +252,42 @@
             $(".ico2").click(function () {
                 $(this).css({
                     'color': '#00b0f0',
-                    'background': 'url("/playChat/Public/Home/images/wenzi.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/wenzi.png") no-repeat 28% 50%',
+                    'background-size': '20%'
                 });
                 $(".ico1").css({
                     'color': '#888',
-                    'background': 'url("/playChat/Public/Home/images/yuyin.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/yuyin.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 $(".ico3").css({
                     'color': '#888888',
-                    'background': 'url("/playChat/Public/Home/images/tupian.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/tupian.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 hideButton();
-                $(".wen_zi").show();
+                $(".wen_zi").toggle();
             });
             //点击图片激活状态
             $(".ico3").click(function () {
                 $(this).css({
                     'color': '#00b0f0',
-                    'background': 'url("/playChat/Public/Home/images/tupian1.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/tupian1.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 $(".ico1").css({
                     'color': '#888',
-                    'background': 'url("/playChat/Public/Home/images/yuyin.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/yuyin.png") no-repeat 28% 50%',
+                    'background-size': '18%'
                 });
                 $(".ico2").css({
                     'color': '#888888',
-                    'background': 'url("/playChat/Public/Home/images/wenzi1.png") no-repeat 24% 50%',
-                    'background-size': '22%'
+                    'background': 'url("/playChat/Public/Home/images/wenzi1.png") no-repeat 28% 50%',
+                    'background-size': '20%'
                 });
 
                 hideButton();
-                $(".tu_pian").show();
+                $(".tu_pian").toggle();
             });
 
         });
@@ -300,25 +303,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-4 ico1">
-                    &nbsp;&nbsp;&nbsp;语音
+                    &nbsp;&nbsp;&nbsp;&nbsp;语音
                 </div>
                 <div class="col-xs-4 ico2">
-                    &nbsp;&nbsp;&nbsp;文字
+                    &nbsp;&nbsp;&nbsp;&nbsp;文字
                 </div>
                 <div class="col-xs-4 ico3" id="last">
-                    &nbsp;&nbsp;&nbsp;图片
+                    &nbsp;&nbsp;&nbsp;&nbsp;图片
                 </div>
             </div>
         </div>
         <!--语音短录-->
         <div class="yu_yin">
             <div class="luyin">
-                <div class="pull-left">
+                <div class="pull-left" style="border-right: 1px solid #bbb;">
                     <a href="#">短录&nbsp;&nbsp;
                     </a>
                 </div>
                 <div class="pull-right timer">
-                    <a href="#">|&nbsp;&nbsp;长录</a>
+                    <a href="#">&nbsp;&nbsp;长录</a>
                 </div>
             </div>
             <div class="tal">
@@ -333,8 +336,8 @@
                 <div class="pull-left">
                     <a href="#">短录&nbsp;&nbsp;</a>
                 </div>
-                <div class="pull-right">
-                    <a href="#">|&nbsp;&nbsp;长录</a>
+                <div class="pull-right" style="border-left: 1px solid #bbb;">
+                    <a href="#">&nbsp;&nbsp;长录</a>
                 </div>
             </div>
             <div class="tal">
@@ -346,27 +349,28 @@
         <!--文字-->
         <div class="wen_zi">
             <form class="form-inline">
-                <button type="submit" class="btn btn-default">返回</button>
+                <button type="submit" class="btn btn-default" style="float: left;padding: 6px 8px;">返回</button>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="来说点什么吧">
-
                 </div>
-                <div class="smil"><img src="/playChat/Public/Home/images/biaoqing.png"></div>
-                <button  type="submit" class="btn btn-default bt1">发送
-                </button>
+                <div class="smil" style="text-align: center;line-height: 34px"><img src="/playChat/Public/Home/images/biaoqing.png" style="height: 24px;"></div>
+                <button  type="submit" class="btn btn-default bt1" style="float: right">发送</button>
             </form>
         </div>
         <!--图片-->
         <div class="tu_pian">
             <div class="pull-left">
+                <a href="#" style="color: #292626">
                 <img src="/playChat/Public/Home/images/tupian22222222.png">
 
                 <P>图片</P>
+                    </a>
             </div>
             <div class="pull-left">
+                <a href="open_video.html" style="color: #292626">
                 <img src="/playChat/Public/Home/images/shipin.png">
-
                 <P>视频</P>
+                </a>
             </div>
         </div>
     </nav>

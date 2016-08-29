@@ -37,51 +37,82 @@
                 <a href="public_play.html">
                 <h4>公开直播</h4>
                 <div>
-                    <img  src="/playChat/Public/Home/images/gongkaizhibo1.png"></div>
+                    <img style="width: 80%;height: auto"  src="/playChat/Public/Home/images/gongkaizhibo1.png"></div>
                     </a>
-                <p>
+                <p style="left: 42%">
                     <img src="/playChat/Public/Home/images/sanjiao.png">
                 </p>
             </div>
             <div class="col-xs-4">
                 <a href="pay_play.html">
                 <h4>收费直播</h4>
-                <div><img src="/playChat/Public/Home/images/shouferizhibo.png"></div>
+                <div><img style="width: 80%;height: auto"  src="/playChat/Public/Home/images/shouferizhibo.png"></div>
                     </a>
             </div>
             <div class="col-xs-4">
                 <a href="into_meeting.html">
                 <h4>内部会议</h4>
-                <div><img src="/playChat/Public/Home/images/neibu.png"></div>
+                <div><img style="width: 80%;height: auto"  src="/playChat/Public/Home/images/neibu.png"></div>
                     </a>
             </div>
         </div>
         <div class="all">
             <p>所有人可收听</p>
         </div>
-        <div class="tab">
-            <a href="#">
+        <div class="tab" id="top-one">
                 <div class="pull-left">本期话题</div>
                 <div class="pull-right">你说我们要成功</div>
-            </a>
         </div>
         <div class="tab">
-            <a href="#">
                 <div class="pull-left">开始时间</div>
                 <div class="pull-right">你说我们要成功</div>
-            </a>
         </div>
         <div class="tab" id="tab">
-            <a href="#">
                 <div class="pull-left">话题介绍</div>
                 <div class="pull-right">你说我们要成功</div>
-            </a>
         </div>
-        <div class="bt">
-            <button class="btn btn-default">下一步</button>
+        <div class="bt" style="margin-bottom: 16px;">
+            <a href="playing.html"><button class="btn btn-default">下一步</button></a>
         </div>
     </div>
-
+    <div class="ball">
+        <div class="ball-con">
+            <div class="title">话题名称</div>
+            <form role="form">
+                <div class="form-group for">
+                    <textarea class="form-control" rows="3" placeholder="请输入话题名称"></textarea>
+                </div>
+            </form>
+            <div class="bn bn1">
+                <button class="btn btn-default pull-left">取消</button>
+                <button class="btn btn-default pull-right">确定</button>
+            </div>
+        </div>
+    </div>
+    <div class="ball-one">
+        <div class="ball-con">
+            <div class="title">话题名称</div>
+            <form role="form">
+                <div class="form-group for">
+                    <textarea class="form-control" rows="3" placeholder="请输入话题介绍"></textarea>
+                </div>
+            </form>
+            <div class="bn bn1">
+                <button class="btn btn-default pull-left">取消</button>
+                <button class="btn btn-default pull-right">确定</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#top-one").click(function () {
+                $(".ball").show();
+            });
+            $("#tab").click(function () {
+                $(".ball-one").show();
+            })
+        })
+    </script>
 
 
 	<!-- /主体 -->

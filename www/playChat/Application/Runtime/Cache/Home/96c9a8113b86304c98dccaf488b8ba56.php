@@ -6,10 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="/playChat/Public/Home/js/jquery-1.10.2.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/playChat/Public/Home/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/playChat/Public/Home/fonts/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/playChat/Public/Home/font/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/playChat/Public/Home/css/playchat.css">
-<script type="text/javascript" src="/playChat/Public/Home/js/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="/playChat/Public/Home/js/bootstrap.min.js"></script>
 
 	
@@ -22,8 +22,6 @@
 
 
 	
-    <!-- 这里放置需要在公共footer中追加的代码 -->
-
 	<!-- /头部 -->
 	
 	<!-- 主体 -->
@@ -43,7 +41,8 @@
         <div class="list">
             <span class="month">天数:</span>
             <ul class="nav nav-pills" role="tablist">
-                <li role="presentation " class="active"><a href="#">7</a></li>
+                <li role="presentation" class="active"><span><img src="/playChat/Public/Home/images/mianfei.png"></span><a href="#">7</a>
+                </li>
                 <li role="presentation"><a href="#">30</a></li>
                 <li role="presentation"><a href="#">60</a></li>
                 <li role="presentation"><a href="#">90</a></li>
@@ -66,11 +65,9 @@
 
 	<!-- 底部 -->
 	<!-- 这里放置共用页脚代码 -->
-
+	
 
 	
-    <!-- 这里放置需要在公共footer中追加的代码 -->
-
 	<!-- /底部 -->
 </body>
 </html>

@@ -77,6 +77,9 @@ body {
   width: 100%;
   height: auto;
 }
+button{
+  outline: none!important;
+}
 
 .on {
   input {
@@ -150,7 +153,7 @@ body {
   .func {
     width: 100%;
     background-color: #fff;
-    height: 42%;
+    height: 50%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -244,6 +247,110 @@ body {
     }
   }
 }
+.input-group .form-control{
+  z-index: 0!important;
+}
+.navbar-default{
+  //background-color: transparent!important;
+}
+
+.navbar-fixed-bottom{
+  z-index: 2!important;
+}
+.er-wei{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  .wei{
+    width: 80%;
+    height: 200px;
+    margin: 50% auto 0;
+    background-color: #fff;
+    img{
+  border: 1px solid #ccc;
+      border-radius: 50%;
+    }
+    .er{
+padding-top: 10px;
+   img{
+     padding: 5px;
+     border: 1px solid #ccc;
+     display: block;
+     width: 20%;
+     margin: 0 auto;
+     border-radius: 4px;
+   }
+    }
+    .ph{
+      text-align: center;
+      padding-top: 10px;
+    }
+    .title{
+      height: 30px;
+      width: 100%;
+      background-color: #00b0f0;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+    }
+  }
+}
+.ball,.ball-one{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  .ball-con{
+    width: 80%;
+    height: 200px;
+    margin: 50% auto 0;
+    background-color: #fff;
+    .title{
+      width: 100%;
+      height: 30px;
+      background-color: #00b0f0;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+    }
+    .bn1{
+      width: 90%;
+      margin: 10px auto;
+      .pull-left{
+        padding: 6px 34px;
+        border: 1px solid #00b0f0;
+        color: #00b0f0;
+
+      }
+      .pull-right{
+        padding: 6px 34px;
+        background-color: #00b0f0;
+        color: #fff;
+        border: none;
+      }
+    }
+    form{
+
+      .form-group{
+        width: 90%;
+        margin: 10px auto!important;
+        textarea{
+          border: 1px dashed #ccc;
+          background-color: #eee;
+          height: 100px;
+        }
+      }
+
+    }
+  }
+}
 .container-fluid {
   margin-top: 10px;
   padding-left: 0;
@@ -272,24 +379,24 @@ body {
       border-bottom: 1px solid #ababab;
     }
   }
-  .refresh {
+  .refre {
     position: fixed;
     right: -10px;
     bottom: 12%;
-    z-index: 1030;
+    z-index: 2;
     .ref {
       margin-bottom: 2%;
     }
     img {
       display: block;
-      width: 60%;
+      width: 50%;
       margin: 0 auto;
     }
 
   }
   .talk {
     width: 90%;
-    margin: 5px auto 70px;
+    margin: 5px auto 100px;
     h2 {
       font-size: 14px;
       color: #bbbbbb;
@@ -349,7 +456,7 @@ body {
     }
   }
   .me {
-    border-top: 4px solid #e3e3e3;
+    border-top: 4px solid #efefef;
   }
   .med {
 
@@ -357,7 +464,7 @@ body {
   }
   .media {
     padding: 10px 0;
-    border-bottom: 4px solid #e3e3e3;
+    border-bottom: 4px solid #efefef;
     .media-left {
       width: 34%;
       padding-left: 20px;
@@ -368,22 +475,26 @@ body {
       }
       .one {
         position: absolute;
-        right: 12px;
+        right: 11px;
+        font-size: 12px;
         top: 10%;
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.4);
         color: #fff;
         border-top-left-radius: 12px;
         border-bottom-left-radius: 12px;
+        padding: 2px 2px;
       }
       .two {
         font-size: 12px;
         position: absolute;
         left: 20px;
         top: 70%;
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.4);
         color: #fff;
         border-top-right-radius: 12px;
         border-bottom-right-radius: 12px;
+        padding: 2px 2px;
+
       }
     }
     .media-body {
@@ -422,12 +533,13 @@ body {
       }
       .btn3{
         position: absolute;
-        bottom:0;
-        left: 151px;
+        bottom:1px;
+        left: 150px;
         background-color: #ff6c60;
         color: #fff;
         border-radius: 0;
-        padding: 3px 4px;
+        padding: 3px 3px;
+        border: none;
       }
       .btn2{
         position: absolute;
@@ -436,7 +548,7 @@ body {
         background-color: #ff6c60;
         color: #fff;
         border-radius: 0;
-        padding: 3px 4px;
+        padding: 3px 3px;
       }
       .btn1{
         position: absolute;
@@ -460,10 +572,11 @@ body {
     overflow: hidden;
     .btn {
       width: 48%;
-      padding: 16px 6px;
+      padding: 12px 6px;
       background-color: #00b0f0;
       color: #fff;
-      border-radius: 8px;
+      border-radius: 4px;
+      border: none;
     }
   }
   .cast {
@@ -472,7 +585,7 @@ body {
     line-height: 40px;
     background-color: #dff5ff;
     color: #00b0f0;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 20px;
 
     img {
@@ -572,7 +685,7 @@ body {
   .top-box {
     width: 100%;
     margin-top: -10px;
-    border-bottom: 10px solid #e6e6e6;
+    border-bottom: 10px solid #efefef;
     .top {
       width: 100%;
       height: 220px;
@@ -600,7 +713,7 @@ button{
       .per {
         position: absolute;
         left: 41%;
-        top: 88%;
+        top: 84%;
         h3 {
           font-size: 14px;
           color: #00b0f0;
@@ -609,7 +722,7 @@ button{
       .inf {
         position: absolute;
         left: 26%;
-        top: 70%;
+        top: 72%;
         h3 {
           font-size: 14px;
           color: #8b8c8c;
@@ -727,9 +840,18 @@ button{
       width: 16%;
     }
     .nav-pills {
+      li{
+        position: relative
+      }
       .active {
-        border: 2px solid #01b0f1;
+        border: 1px solid #01b0f1;
         background-color: #fff;
+        span{
+          display:block;position: absolute;left: 0;top: 0;z-index: 2;
+          img{
+            width: 68%;margin-left: -10px;margin-top: -5px;
+          }
+        }
         a:hover {
           background-color: #fff !important;
         }
@@ -841,6 +963,7 @@ button{
       margin: 0 auto;
       color: #fff;
       padding: 0;
+      border: none;
     }
   }
   .text1 {
@@ -970,20 +1093,21 @@ button{
     width: 100%;
     .bg {
       width: 90%;
-      margin: 50px auto 0;
+      margin: 22px auto 0;
       height: 120px;
       background: url("../images/wanxia.png") no-repeat;
       background-size: 100%;
       position: relative;
       .ph {
+        width: 100%;
         position: absolute;
-        left: 40%;
-        top: -30px;
+        top: -26px;
+        text-align: center;
         img {
           display: block;
           border-radius: 50%;
           border: 1px solid #332f30;
-          width: 80%;
+          width: 20%;
           height: auto;
           margin: auto;
         }
@@ -1004,15 +1128,21 @@ button{
         }
       }
       .bn {
-        width: 64%;
+        width: 100%;
         overflow: hidden;
-        margin-left: 18% !important;
-        padding-top: 18%;
+     text-align: center;
+        padding-top: 11%;
         .pull-left {
-          background-color: #00c8bd;
+          width: 50%;text-align: center;
+          button{
+            background-color:#00c8bd;
+          }
         }
         .pull-right {
-          background-color: #01b0f1;
+          width: 50%;text-align: center;
+        button{
+        background-color:#01b0f1;
+        }
         }
         .btn {
           padding: 3px 7px;
@@ -1021,7 +1151,7 @@ button{
         }
       }
       .tex {
-        margin-top: 5%;
+        margin-top: 3%;
         text-align: center;
         p {
           color: #959595;
@@ -1037,7 +1167,7 @@ button{
         }
       }
     }
-    border-bottom: 6px solid #e3e3e3;
+    border-bottom: 6px solid #efefef;
   }
 
 }
@@ -1046,7 +1176,7 @@ button{
   .wen_zi {
     .form-inline {
       .form-group {
-        width: 64% !important;
+        width: 63% !important;
       }
     }
   }
@@ -1054,8 +1184,8 @@ button{
   .yu_yin {
     .luyin {
       .pull-left {
-        background: url('../images/xiaoyuan.png') no-repeat 88% 90% !important;
-        background-size: 6% !important;
+        //background: url('../images/xiaoyuan.png') no-repeat 88% 90% !important;
+        //background-size: 6% !important;
       }
     }
 
@@ -1064,8 +1194,8 @@ button{
   .chang_lu {
     .luyin {
       .pull-right {
-        background: url('../images/xiaoyuan.png') no-repeat 16% 90% !important;
-        background-size: 6% !important;
+        //background: url('../images/xiaoyuan.png') no-repeat 16% 90% !important;
+        //background-size: 6% !important;
       }
     }
 
@@ -1073,7 +1203,7 @@ button{
 
   .media {
     padding: 10px 0;
-    border-bottom: 4px solid #e3e3e3;
+    border-bottom: 4px solid #efefef;
     .media-left {
       width: 34%;
       padding-left: 20px;
@@ -1090,7 +1220,7 @@ button{
         padding: 6px 7px !important;
       }
       .btn3{
-        left:169px!important;
+        left:170px!important;
       }
       .btn4{
         left:68%!important;
@@ -1109,7 +1239,6 @@ left:78px!important;
     .top {
       height: 300px !important;
       .ph {
-        left: 42% !important;
         img {
           width: 100% !important;
           height: auto !important;
@@ -1124,15 +1253,15 @@ left:78px!important;
   .bg {
     height: 150px !important;
     .ph {
-      left: 41% !important;
-      img {
-
-        width: 100% !important;
-        height: auto !important;
-      }
+      //left: 41% !important;
+      //img {
+      //
+      //  width: 100% !important;
+      //  height: auto !important;
+      //}
     }
     .bn {
-      padding-top: 20% !important;
+      padding-top: 13% !important;
     }
     .checkbox {
       bottom: -5% !important;
@@ -1144,7 +1273,7 @@ left:78px!important;
   .wen_zi {
     .form-inline {
       .form-group {
-        width: 67% !important;
+        width: 65% !important;
       }
     }
   }
@@ -1177,18 +1306,24 @@ left:78px!important;
     .form-group {
       margin-left: 0;
       margin-right: 0;
+      border-radius: 4px;
       .form-control {
         height: 46px;
         border: none;
-        background-color: #f2f2f2;
+        background-color: #efefef;
+        border-radius: 4px;
       }
       .num {
         width: 70%;
+        border-radius: 4px;
       }
       .nu {
         width: 26%;
-        border: none;
+        border: none!important;
         height: 46px;
+        border-radius: 4px;
+        background-color: #00b0f0!important;
+        color: #fff;
       }
     }
 
@@ -1205,8 +1340,8 @@ left:78px!important;
       }
     }
     .pull-right{
-      background: url('../images/xiaoyuan.png') no-repeat 20% 90%;
-      background-size: 8%;
+      //background: url('../images/xiaoyuan.png') no-repeat 12% 90%;
+      //background-size: 8%;
       a{
        color: #00b0f0;
       }
@@ -1233,24 +1368,23 @@ left:78px!important;
 
   }
   .luyin {
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    margin-top: 1px;
     margin-bottom: 10px;
     overflow: hidden;
     .pull-left {
       width: 50%;
-      text-align: right;
-      background: url("../images/xiaoyuan.png") no-repeat 84% 90%;
-      background-size: 8%;
+      text-align: center;
+      //background: url("../images/xiaoyuan.png") no-repeat 90% 90%;
+      //background-size: 8%;
       a {
         color: #00b0f0;
       }
     }
     .pull-right {
       width: 50%;
-      text-align: left;
+      text-align: center;
     }
     a {
       color: #9ea2a4;
@@ -1273,6 +1407,7 @@ left:78px!important;
     .form-group {
       float: left;
       margin: 0 2px;
+      width: 58%;
       input {
 padding: 4px 4px;
       }
@@ -1290,10 +1425,11 @@ padding: 4px 4px;
     .bt1{
      background-color: #00b0f0;
       color: #fff;
+      border: none;
     }
     .btn {
       float: left;
-      padding: 6px 8px;
+      padding: 7px 8px;
     }
 
   }
@@ -1304,9 +1440,10 @@ padding: 4px 4px;
   padding: 10px 20px;
   display: none;
   .pull-left{
+    width: 30%;
     img{
       display: block;
-      width: 60%;
+      width: 56%;
       margin: 0 auto;
     }
     p{
@@ -1314,9 +1451,12 @@ padding: 4px 4px;
     }
   }
 }
+.navbar{
+  border: none;
+}
 .container {
   width: 100%;
-  height: 60px;
+  height: 50px;
   border-top: 1px solid #c6c6c6;
   border-bottom: 1px solid #c6c6c6;
   padding-left: 0 !important;
@@ -1325,25 +1465,25 @@ padding: 4px 4px;
   .row {
     width: 100%;
     margin: 0 auto;
-    height: 60px;
+    height: 50px;
     #last {
       border-right: none;
     }
     .ico1{
-      background: url("../images/yuyin.png") no-repeat 24% 50%;
-      background-size: 22%;
+      background: url("../images/yuyin.png") no-repeat 28% 50%;
+      background-size: 18%;
     }
     .ico2{
-      background: url("../images/wenzi1.png") no-repeat 24% 50%;
-      background-size: 22%;
+      background: url("../images/wenzi1.png") no-repeat 28% 50%;
+      background-size: 20%;
     }
     .ico3{
-      background: url("../images/tupian.png") no-repeat 24% 50%;
-      background-size: 22%;
+      background: url("../images/tupian.png") no-repeat 28% 50%;
+      background-size: 18%;
     }
     .col-xs-4 {
       border-right: 1px solid #cbcbcb;
-      line-height: 60px;
+      line-height: 49px;
       text-align: center;
       margin-top: 0 !important;
       img {
@@ -1355,7 +1495,7 @@ padding: 4px 4px;
   }
   div {
     margin-top: 5px;
-    color: #9f9f9f;
+    color: #666;
     img {
       display: block;
       margin: auto;
@@ -1371,74 +1511,82 @@ padding: 4px 4px;
   }
   .one{
     background: url("../images/zhibo.png") no-repeat 50% 10%;
-    background-size: 70%;
+    background-size: 60%;
+    margin-top: 2px!important;
     color:#888888 ;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   .two{
     background: url("../images/gerenzhongxin1.png") no-repeat 50% 10%;
-    background-size: 50%;
+    background-size: 40%;
     color: #00b0f0;
+    margin-top: 0px!important;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   #one{
     background: url("../images/zhibo1.png") no-repeat 50% 10%;
-    background-size: 70%;
+    background-size: 60%;
+    margin-top: 2px!important;
     color:#00b0f0 ;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   #two{
     background: url("../images/gerenzhongxin.png") no-repeat 50% 10%;
-    background-size: 50%;
+    background-size: 40%;
+    margin-top: 0px!important;
     color: #888;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   .topic{
     background: url("../images/huati1.png") no-repeat 50% 10%;
-    background-size: 50%;
-    color:#888 ;
+    background-size: 40%;
+    color:#666;
+    margin-top: 2px!important;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   .function{
     background: url("../images/gongneng1.png") no-repeat 50% 10%;
-    background-size: 50%;
-    color: #888;
+    background-size: 46%;
+    color: #666;
+    margin-top: 2px!important;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   .chose{
     background: url("../images/huati.png") no-repeat 50% 10%;
-    background-size: 50%;
+    background-size: 40%;
+    margin-top: 2px!important;
     color:#00b0f0 ;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
   .introduce{
     background: url("../images/gongneng.png") no-repeat 50% 10%;
-    background-size: 50%;
+    background-size: 46%;
     color: #00b0f0;
+    margin-top: 2px!important;
     p{
       text-align: center;
-      margin-top: 32px;
+      margin-top: 26px;
     }
   }
 }
